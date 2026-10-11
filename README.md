@@ -4,33 +4,33 @@ A starter repository for the CSC10014 Smart Virtual Assistant project.
 
 ## \## Setup
 
-## Prerequisites: Python 3.10+, Git.
+Prerequisites: Python 3.10+, Git.
 
-## &#x20;git clone git@github.com:<you>/lab01-starter.git
+git clone git@github.com:<you>/lab01-starter.git
 
-## &#x20;cd lab01-starter
+cd lab01-starter
 
-## &#x20;python -m venv .venv
+python -m venv .venv
 
-## &#x20;source .venv/bin/activate # Windows: .venv\\Scripts\\Activate.ps1
+source .venv/bin/activate # Windows: .venv\\Scripts\\Activate.ps1
 
-## &#x20;pip install -r requirements.txt
+pip install -r requirements.txt
 
-## &#x20;pip install -e .
+pip install -e .
 
 ## \## Run
 
-## &#x20;python -m assistant "where is the library?"
+python -m assistant "where is the library?"
 
-## &#x20;# -> Library: room B.201, open Mon-Sat 07:00-20:00.
+-> Library: room B.201, open Mon-Sat 07:00-20:00.
 
 ## \## Test
 
-## &#x20;pytest -q # -> 4 passed
+pytest -q # -> 4 passed
 
 ## \## Troubleshooting
 
-## \- "No module named assistant" -> you forgot `pip install -e .` or the venv is not active.
+"No module named assistant" -> you forgot `pip install -e .` or the venv is not active.
 
-## \- PowerShell blocks Activate.ps1 -> Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+PowerShell blocks Activate.ps1 -> Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
 
