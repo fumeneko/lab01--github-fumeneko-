@@ -1,15 +1,6 @@
-# Smart Virtual Assistant — Team 05
+# Study Assistant — starter
 
-A collaborative project for CSC10014 — Smart Virtual Assistant.
-
-This repository contains the shared development environment for Team 05,
-including the Python backend, sample data, user interface planning,
-automated tests, and project documentation.
-
-Note: This repository is being initialized through individual
-team member pull requests. The Run and Test instructions
-will be fully functional once the backend, data, and tests
-have been merged into the main branch.
+A starter repository for the CSC10014 Smart Virtual Assistant project.
 
 ## Prerequisites
 
